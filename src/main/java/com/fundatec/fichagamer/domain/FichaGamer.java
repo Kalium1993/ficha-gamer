@@ -7,7 +7,8 @@ import org.springframework.data.mongodb.core.mapping.Document;
 import java.util.ArrayList;
 import java.util.List;
 
-@Document
+
+@Document(collection = "FichaGamer")
 public class FichaGamer {
     @Id
     private ObjectId _id;
